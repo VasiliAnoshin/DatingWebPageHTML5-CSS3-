@@ -23,6 +23,10 @@ html{
     max-width: 1340px;
     margin: 0 auto 0 auto;
 }
+section {
+    padding: 80px,0;
+}
+
 /*------------------------------ */
 /*HEADER                      */
 /*------------------------------*/
