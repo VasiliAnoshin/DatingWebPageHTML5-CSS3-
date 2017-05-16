@@ -26,10 +26,9 @@ html{
 section {
     padding: 80px,0;
 }
-.box{
-    
+.box{    
     padding: 2px;  
-    margin: 0 75px;
+    margin: 0 55px;
 }
 
 /*------------------------------ */
@@ -115,14 +114,11 @@ h2:after{
    
 }
 h3{
-    font-size: 80%;
+    font-size: 110%;
     margin-bottom: 15px;
-    text-align: right
+    text-align: center;
 }
 
-.img1{
-       display:inline-block;         
-}
 
 /*------------------------------*/
 /* Paragraps                      */
@@ -167,4 +163,19 @@ h3{
 .btn-ghost:hover,
 .btn-ghost:active{    
     background-color:#3b5998;
+}
+
+div.box {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width:25%;
+}
+.Img {
+    width: 70px;
+    height: 70px;
+}
+.caption {
+    display: block;
+    text-align: center;
 }
