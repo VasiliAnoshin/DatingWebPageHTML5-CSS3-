@@ -30,6 +30,22 @@ section {
     padding: 2px;  
     margin: 0 55px;
 }
+div.box {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width:25%;
+    margin-top: 20px;
+}
+.Img {
+    width: 75px;
+    height: 75px;
+}
+.caption {
+    display: block;
+    text-align: center;
+    font-size:90%;
+}
 
 /*------------------------------ */
 /*HEADER                      */
@@ -165,17 +181,3 @@ h3{
     background-color:#3b5998;
 }
 
-div.box {
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-    width:25%;
-}
-.Img {
-    width: 70px;
-    height: 70px;
-}
-.caption {
-    display: block;
-    text-align: center;
-}
