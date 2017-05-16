@@ -23,8 +23,8 @@ html{
     max-width: 1340px;
     margin: 0 auto 0 auto;
 }
-section {
-    padding: 80px,0;
+.section-features {
+    padding: 80px;
 }
 .box{    
     padding: 2px;  
@@ -181,3 +181,32 @@ h3{
     background-color:#3b5998;
 }
 
+/*------------------------------*/
+/* Images                      */
+/*------------------------------*/
+.section-images{
+    padding: 40px;
+    margin-top: 50px;
+}
+.images-showcase{
+    list-style: none;
+    width:100%;
+}
+.images-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+.photo{
+    width:100%;
+    margin: 0;
+    overflow: hidden;
+}
+.photo img{
+    width: 100%;
+    height:auto;
+    transform:scale(1.25);
+}
+.photo img:hover{
+    transform:scale(1);
+}
