@@ -1,4 +1,4 @@
-# DatingWebPageHTML5-CSS3-
+# DatingWebPageHTML5-CSS3
 Landing page using JQuerry/HTML5/CSS3
 
 Good Resource file: 
