@@ -182,11 +182,17 @@ h3{
 }
 
 /*------------------------------*/
-/* Images                      */
+/* Features                    */
 /*------------------------------*/
+.section-features .long-copy{
+    margin-bottom: 40px;
+}
+/*------------------------------- */
+/* Images III part of the project */
+/*------------------------------- */
 .section-images{
     padding: 40px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .images-showcase{
     list-style: none;
@@ -200,13 +206,19 @@ h3{
 .photo{
     width:100%;
     margin: 0;
+    /* as we set img to 1.25% the whole image cannot enter inside the 100% of section block. using overflow:hide make posible to hide the parts that does not included into section. */
     overflow: hidden;
+    background-color: #000;
 }
 .photo img{
+    opacity: 0.7;
     width: 100%;
     height:auto;
     transform:scale(1.25);
+    /*nice animation that set picture size to its real sizes in 0,5 seconds. and make opacity as opasity of original picture. */
+    transition: transform 0.5s opacity 0.5s;
 }
 .photo img:hover{
-    transform:scale(1);
+    transform:scale(1.03);
+    opacity: 1;
 }
