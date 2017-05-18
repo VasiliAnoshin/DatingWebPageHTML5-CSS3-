@@ -222,3 +222,52 @@ h3{
     transform:scale(1.03);
     opacity: 1;
 }
+/*------------------------------- */
+/* How it workds                  */
+/*------------------------------- */
+
+.steps-box {
+    margin-top: 30px;
+    width:40%;
+}
+.steps-box: first-child{
+    text-align: right;
+    padding: 3%;
+}
+.steps-box: last-child{
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.app-screen{
+    width: 100%;
+    margin-left: 150px;
+}
+.works-step:first-of-type {
+    margin-top: 80px;
+}
+.works-step{
+    margin-bottom: 50px;
+}
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+.works-step div{
+    color:#e67e22;
+    border: 2px solid #e67e22;
+    display:inline-block;
+    border-radius: 55%;
+    height: 55px;
+    width:55px;
+    text-align:center;
+    padding: 5px;
+    font-size: 150%;
+    float: left;
+    margin-right: 25px;
+}
+
+.btn-app img{
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
