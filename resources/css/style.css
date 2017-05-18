@@ -32,6 +32,7 @@ html{
 .row{
     max-width: 1340px;
     margin: 0 auto 0 auto;
+    margin-top: 40px;
 }
 .section-features {
     padding: 80px;
@@ -65,6 +66,7 @@ header{
     background-size: cover;
     background-position: center;
     height:100vh;
+    background-attachment: fixed;
 }
 .hero-text-box{
     position:absolute;
@@ -295,6 +297,8 @@ h3{
 
 .section-who-we-are{
     background: #fff;
+    margin-bottom: 10%;
+  
 }
 .box1 img{
     width:100%;
@@ -354,4 +358,50 @@ div.box2 {
     margin-top: -4px;
     margin-right: 10px;
     float: left;
+}
+
+/*------------------------------- */
+/* Our Customers                  */
+/*------------------------------- */
+
+.OurCustomers{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/wedding.jpeg);
+    background-size: cover;
+    color: white;
+    height:60vh;
+    /* Effect for scrolling*/
+    background-attachment: fixed;
+}
+
+bockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+}
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+blockquote:before{
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    top:-5px;
+ 
+}
+cite img{
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.customerRow1{
+    width: 30%;
+}
+.customerRow2{
+    width: 30%;
+}
+.customerRow3{
+    width: 30%;
 }
