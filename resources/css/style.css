@@ -16,11 +16,12 @@ html{
     text-rendering: optimizeLegibility;
 }
 
-.clearfix{zoom:1}
-.clearfix: after{
-    content: '.';
+.clearfix {	zoom: 1;}
+.clearfix:after, .clearfix:before
+{
     clear: both;
-    display: block;
+    content: ".";    
+    display:block;
     height: 0;
     visibility: hidden;
 }
@@ -200,7 +201,9 @@ h3{
 /* Images III part of the project */
 /*------------------------------- */
 .section-images{
-    padding: 40px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
     margin-top: 10px;
 }
 .images-showcase{
@@ -237,6 +240,9 @@ h3{
 
 .section-steps{
     background-color: #f4f4f4;
+}
+.rowCaption{
+      margin-top: 40px;
 }
 .steps-box {
     margin-top: 30px;
@@ -294,8 +300,11 @@ h3{
     width:100%;
     height: auto;
     margin-bottom: 15px;
-    border-radius: 55%;    
+    border-radius: 75%;    
     
+}
+.ourTeam{
+    margin-top: 30px;
 }
 .person-feature{
     margin-bottom: 5px;
@@ -303,16 +312,36 @@ h3{
 }
 .box1{    
     padding: 2px;      
-    margin-left: 30%;     
-     display:inline-block;
+    margin-left: 17%;     
+    display:inline-block;
+  
 }
 div.box1 {
     vertical-align: top;
-    display: inline-block;
     text-align: center;
     width:25%;
-    margin-top: 20px;         
+    margin-top: 20px;    
 }
+  
+.box2{    
+    padding: 2px;      
+    margin-left: 14%;     
+    display:inline-block;
+   
+}
+.box2 img{
+   width:100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 75%;    
+}
+div.box2 {
+    vertical-align: top;
+    text-align: center;
+    width:25%;
+    margin-top: 20px; 
+    
+}      
 .icon-small{
     display:inline-block;
     width: 30px;
@@ -324,4 +353,5 @@ div.box1 {
     vertical-align:top;
     margin-top: -4px;
     margin-right: 10px;
+    float: left;
 }
