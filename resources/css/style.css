@@ -16,6 +16,15 @@ html{
     text-rendering: optimizeLegibility;
 }
 
+.clearfix{zoom:1}
+.clearfix: after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /*------------------------------*/
 /*Reusable components  */
 /*------------------------------*/
@@ -226,6 +235,9 @@ h3{
 /* How it workds                  */
 /*------------------------------- */
 
+.section-steps{
+    background-color: #f4f4f4;
+}
 .steps-box {
     margin-top: 30px;
     width:40%;
@@ -270,4 +282,46 @@ h3{
     height: 50px;
     width: auto;
     margin-left: 10px;
+}
+/*------------------------------- */
+/* Our Team                       */
+/*------------------------------- */
+
+.section-who-we-are{
+    background: #fff;
+}
+.box1 img{
+    width:100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 55%;    
+    
+}
+.person-feature{
+    margin-bottom: 5px;
+ 
+}
+.box1{    
+    padding: 2px;      
+    margin-left: 30%;     
+     display:inline-block;
+}
+div.box1 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width:25%;
+    margin-top: 20px;         
+}
+.icon-small{
+    display:inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    /*secrets to align text icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -4px;
+    margin-right: 10px;
 }
