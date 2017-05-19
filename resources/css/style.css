@@ -163,7 +163,8 @@ h3{
 /* Buttons                      */
 /*------------------------------*/
 .btn:link,
-.btn:visited{
+.btn:visited,
+input[type=submit]{
     display: inline-block;
     padding: 10px 30px;
     font-weight:300;
@@ -180,12 +181,15 @@ h3{
 }
 
 .btn-full:link,
-.btn-full:visited
+.btn-full:visited,
+input[type=submit]
 {
     background-color: #e67e22;
 }
 .btn:hover,
-.btn:active{
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active{
     background-color: #cf6d17;
 }
 .btn-ghost:hover,
@@ -368,7 +372,7 @@ div.box2 {
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/wedding.jpeg);
     background-size: cover;
     color: white;
-    height:60vh;
+    height:90vh;
     /* Effect for scrolling*/
     background-attachment: fixed;
 }
@@ -405,3 +409,24 @@ cite img{
 .customerRow3{
     width: 30%;
 }
+/*------------------------------- */
+/* Form                */
+/*------------------------------- */
+.contact-form{
+    width:60%;
+    margin: 0 auto;
+}
+input[type=text],input[type=email], select, textarea{
+    width:100%;
+    padding:7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+textarea{
+    height: 100px;
+}
+input[type=checkbox]{
+    margin: 10px 5px 10px 0;
+}
+*:focus{outline:none;}
+
