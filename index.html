@@ -9,6 +9,8 @@
         <link rel ="stylesheet" type ="text/css" href="resources/css/style.css">
         <link rel ="stylesheet" type ="text/css" href="resources/css/queries.css">
         <link rel ="stylesheet" type ="text/css" href="vendors/css/ionicons.min.css">
+         <script src="resources/js/gmaps.js"></script>
+         <script src="http://maps.google.com/maps/api/js"></script>
         <title> Dating/Meeting</title>
     </head>
     <body>
@@ -200,10 +202,32 @@
         </div>
        </section>
         
-        <section class="section-form clearfix">
-            <div class ="row HappyHear">
-                <h2>We re happy to hear from you</h2>
-            </div>         
+        <div class="map-box clearfix">
+            
+            
+            <div id="map">
+             <script>
+                var map = new GMaps({
+                  el: '#map',
+                  lat: 9.1214448,                      
+                  lng: 44.9995305,
+                  zoom:6
+                });
+                map.addMarker({
+                lat: 9.1214448,
+                lng: 38.9995305,
+                title: 'We Are Here',
+              click: function(e) {
+                alert('You clicked in this marker');
+              }
+            });
+            </script>
+            </div>
+            <div class="form-box">
+                <div class ="row HappyHear">
+                    <h2>We re happy to hear from you</h2>
+                </div>
+           
             <div class="row">
                 <form method="post" action="#" class="contact-form">
                     <div class="row">
@@ -255,15 +279,16 @@
                         <div class="col span-1-of-3">
                             <label>&nbsp;</label>
                         </div>
-                        <div class="col span-2-of-3">
+                        <div class="col span-2-of-3 btnSubmit">
                             <input type="submit" value="Send it!">
                         </div>
                     </div>
                     
                 </form>
-                
+                </div>
+                 </div>
             </div>
-        </section>
+     
           <footer>
             <div class="row">
                 <div class="col span-1-of-2">
@@ -294,6 +319,7 @@
                 </p>
             </div>
         </footer>
+       
     </body>
     
     
